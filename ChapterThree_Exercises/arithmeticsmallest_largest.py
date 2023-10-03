@@ -27,3 +27,5 @@ for count in range(1):
         print("Invalid input cant tell which is largest or smallest")
 
     print(f"Addition ={add}\t\t Product ={product}\t\t Average={average}")
+
+# if this code is going to run once, why did you have to put in a for loop that run only once
