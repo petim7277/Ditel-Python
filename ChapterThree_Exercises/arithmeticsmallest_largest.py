@@ -16,14 +16,14 @@ for count in range(1):
     elif fourth_input > first_input and fourth_input > second_input and fourth_input > third_input:
         print(f"({fourth_input}) fourth entered is the largest")
     elif first_input < second_input and first_input < third_input and first_input < fourth_input:
-        print(f"Smallest number is :{first_input}")
+        print(f"first number entered is the smallest :{first_input}")
     elif second_input < first_input and second_input < third_input and second_input < fourth_input:
-        print(f"Smallest number is :{second_input}")
+        print(f"Second entered is the smallest:{second_input}")
     elif third_input < first_input and third_input < second_input and third_input < fourth_input:
-        print(f"Smallest number is {third_input}")
+        print(f"third number is  smallest{third_input}")
     elif fourth_input < first_input and fourth_input < second_input and fourth_input < third_input:
-        print(f"Smallest number is :{fourth_input}")
+        print(f"fourth number entered is the fourth :{fourth_input}")
     else:
-        print("Invalid input cant tell which is largest or smallest")
+        print("Invalid input can't tell which is largest or smallest")
 
     print(f"Addition ={add}\t\t Product ={product}\t\t Average={average}")

@@ -1,2 +1,3 @@
-for rows in range(5):
-    print(rows)
+numbers = 120
+result = numbers // 3
+print(result)
