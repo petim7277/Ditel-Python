@@ -109,9 +109,8 @@ def messages():
 
 
 def chat():
-
     print("Enter 0 to return to list of menu functions")
-    user_input =int (input("Enter a number: "))
+    user_input = int(input("Enter a number: "))
     if user_input == 0:
         menu_functions()
     return
